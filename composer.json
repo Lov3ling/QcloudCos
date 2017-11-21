@@ -1,0 +1,23 @@
+{
+    "name": "ysandreew/qcloud-cos",
+    "require": {
+        "qcloud/cos-sdk-v4": "^4.3"
+    },
+    "require-dev": {
+        "qcloud/cos-sdk-v4": "^4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lov3ling",
+            "email": "2625899521@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	
+	 "autoload": {
+        "psr-4": {
+			"Lee\\QcloudCos\\":"src/"
+        }
+    }
+}
